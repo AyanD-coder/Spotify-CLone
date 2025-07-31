@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=TikTok+Sans:opsz,wght@12..36,300..900&family=Varela+Round&display=swap');
+
+
+body{
+    /* background-color:rgb(255 244 89); */
+    /* background: linear-gradient(145deg, red, black);   */
+      /* background: linear-gradient(to right, red, orange, yellow, red); */
+      background: linear-gradient(to right,#f8b500, black,black, #f8b500);
+
+   
+}
+.dark {
+    background: linear-gradient(to right,red,black, blue);      
+    /* background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); */
+    /* background: url('https://images.unsplash.com/photo-1511376777868-611b54f68947') center center / cover no-repeat; */
+
+    /* background: #121212;
+    color: white; */
+  }
+  .darkcontainer {
+    background: url('https://media.istockphoto.com/id/1167503108/photo/stage-lights.jpg?s=612x612&w=0&k=20&c=SDhMTUaugftWdKSp1XkWjD0n-W8R9qIOtT7Qx3gm4cE=') center center / cover no-repeat !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   font-family: 'Varela Round', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    background-color: black;
+    color: aliceblue;
+    padding: 1px;
+    justify-content: space-evenly;
+    
+}
+
+nav ul li{
+    padding:0 5px;
+    margin: 3px;
+}
+.brand img{
+    width: 40px;
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+ 
+    color: azure;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    /* background: url('https://images.unsplash.com/photo-1511376777868-611b54f68947') center center / cover no-repeat; */
+    background: url("https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2")    no-repeat center center/cover fixed;
+
+    /* background-image: url('bg6.jpg'); */
+    /* background: rgba(255, 255, 255, 0.1); semi-transparent */
+    backdrop-filter: blur(12px);          /* blur effect */
+    -webkit-backdrop-filter: blur(12px);  /* safari support */
+    border-radius: 20px;
+   
+    margin: 20px auto;
+   
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+}
+
+.bottom{
+    background-color: black;
+    color: aliceblue;
+    position: sticky;
+    bottom: 0;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+#myprogressbar{
+    width: 75%;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 74px;
+}
+.songitem{
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: rgb(25 23 23);
+    /* width: 90%; */
+    margin: 12px 0px;
+    border-radius: 34px;
+}
+
+.songitem img{
+  width: 45px;
+  margin: 0 23px 0;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.cat{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    height: 13px;
+    width: 180px;
+    position: absolute;
+    left: 198px;
+}
+
+#biral{
+    position: absolute;
+    width: 40%;
+    height: 38%;
+    left: 70vh;
+    z-index: -1;
+    /* transition: opacity 0.3s ease-in; */
+    padding-top: 40px;
+    /* background-color: tan; */
+
+
+}
+.songinfo{
+    position: absolute;
+    left: 12vw;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+/* #duration{
+    display: flex;
+    justify-content: space-around;
+}
+#currenttime{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.totaltime{
+    display: flex;
+    justify-content: space-around;
+
+}

@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="project.css" />
+  <script src="https://kit.fontawesome.com/688471b731.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation -->
+   <nav>
+    <ul>
+      <li class="brand">
+        <img src="others/logopng.png" alt="Spotify" />Spotify
+      </li>
+      <li>Home</li>
+      <li>About</li>
+      <li><button id="themeToggle" ><i class="fa-solid fa-moon"></i></button></li>
+
+    </ul>
+   </nav>
+
+   <!-- Main Container -->
+    <div class="container left">
+    <div class="songlist">
+      <h1>Best of Songs</h1>
+      <div class="songitemcontainer">
+        <!-- Song Items -->
+        <!-- Repeat these blocks as needed -->
+        <div class="songitem">
+          <img  alt="Cover" />
+          <span class="songname">Sorry Sorry</span>
+          <span class="songdisplay">
+            <span class="timestamp">
+              05:34 <i id="1" class="fa-solid songitenplay fa-circle-play songPlayBtn"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="songitem">
+          <img  alt="Cover" />
+          <span class="songname">Bollywood Song</span>
+          <span class="songdisplay">
+            <span class="timestamp">
+              04:20 <i id="2" class="fa-solid songitenplay fa-circle-play songPlayBtn"></i>
+            </span>
+          </span>
+        </div>
+        <div class="songitem">
+          <img alt="Cover" />
+          <span class="songname">Bollywood Song</span>
+          <span class="songdisplay">
+            <span class="timestamp">
+              04:20 <i id="3" class="fa-solid songitenplay fa-circle-play songPlayBtn"></i>
+            </span>
+          </span>
+        </div>
+        <div class="songitem">
+          <img alt="Cover" />
+          <span class="songname">Bollywood Song</span>
+          <span class="songdisplay">
+            <span class="timestamp">
+              04:20 <i id="4" class="fa-solid songitenplay fa-circle-play songPlayBtn"></i>
+            </span>
+          </span>
+        </div>
+        <div class="songitem">
+          <img alt="Cover" />
+          <span class="songname">Bollywood Song</span>
+          <span class="songdisplay">
+            <span class="timestamp">
+              04:20 <i id="5" class="fa-solid songitenplay fa-circle-play songPlayBtn"></i>
+            </span>
+          </span>
+        </div>
+        <div class="songitem">
+          <img  alt="Cover" />
+          <span class="songname">Bollywood Song</span>
+          <span class="songdisplay">
+            <span class="timestamp">
+              04:20 <i id="6" class="fa-solid songitenplay fa-circle-play songPlayBtn"></i>
+            </span>
+          </span>
+        </div>
+        <div class="songitem">
+          <img  alt="Cover" />
+          <span class="songname">Bollywood Song</span>
+          <span class="songdisplay">
+            <span class="timestamp">
+              04:20 <i id="7" class="fa-solid songitenplay fa-circle-play songPlayBtn"></i>
+            </span>
+          </span>
+        </div>
+        <div class="songitem">
+          <img  alt="Cover" />
+          <span class="songname">Bollywood Song</span>
+          <span class="songdisplay">
+            <span class="timestamp">
+              04:20 <i id="8" class="fa-solid songitenplay fa-circle-play songPlayBtn"></i>
+            </span>
+          </span>
+        </div>
+
+        <!-- Repeat more songitem blocks with unique ids -->
+      </div>
+
+    </div>
+
+    <!-- Banner (optional) -->
+    <div class="right">
+      
+      <img src="others/musiccat1.gif" class="cat" id="biral" alt="">
+    </div>
+    </div>
+
+   <!-- Bottom Player Controls -->
+   <div class="bottom">
+    <input type="range" id="myprogressbar" min="0" max="100" value="0" />
+    <div class="totaltime">
+    <span id="current-time">0:00</span> /<span id="duration">0:00</span>
+    </div>
+
+    <div class="icons">
+      <i class="fa-solid fa-backward-step" id="prev"></i>
+      <i id="masterplay" class="fa-solid fa-circle-play"></i>
+      <i class="fa-solid fa-forward-step" id="next"></i>
+    </div>
+    <div   class="songinfo"></div>
+   
+      <img id="gif" class="cat" src="others/music1.gif" alt="" />
+      <span id="mastersong">Sorry sorry</span>
+    </div>
+  </div>
+
+  <script src="project.js"></script>
+</body>
+</html>
